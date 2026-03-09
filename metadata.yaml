@@ -1,6 +1,6 @@
 name: llm_plugin_aware
 author: 86lbs
 description: LLM 插件感知增强插件，使 LLM 可以知道有哪些插件指令，以及知道插件触发的消息内容，以此解决某些调用问题。
-version: 1.0.0
+version: 1.0.1
 repo: https://github.com/86lbs/astrbot_plugin_llm_plugin_aware
 astrbot_version: ">=4.0.0"
