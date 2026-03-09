@@ -1,31 +1,26 @@
 {
-  "type": "object",
-  "properties": {
-    "enable_command_tool": {
-      "type": "boolean",
-      "title": "启用指令查询工具",
-      "description": "是否启用 get_available_commands LLM Tool，让 LLM 可以查询当前可用的插件指令",
-      "default": true
-    },
-    "enable_plugin_info_tool": {
-      "type": "boolean",
-      "title": "启用插件信息查询工具",
-      "description": "是否启用 get_plugin_info LLM Tool，让 LLM 可以获取插件的详细信息",
-      "default": true
-    },
-    "enable_tool_logging": {
-      "type": "boolean",
-      "title": "启用工具调用日志",
-      "description": "是否记录 LLM Tool 的调用和响应事件",
-      "default": true
-    },
-    "log_level": {
-      "type": "string",
-      "title": "日志级别",
-      "description": "工具调用日志的输出级别",
-      "default": "info",
-      "enum": ["info", "debug"]
-    }
+  "enable_command_tool": {
+    "type": "boolean",
+    "title": "启用指令查询工具",
+    "description": "是否启用 get_available_commands LLM Tool，让 LLM 可以查询当前可用的插件指令",
+    "default": true
   },
-  "required": []
+  "enable_plugin_info_tool": {
+    "type": "boolean",
+    "title": "启用插件信息查询工具",
+    "description": "是否启用 get_plugin_info LLM Tool，让 LLM 可以获取插件的详细信息",
+    "default": true
+  },
+  "enable_tool_logging": {
+    "type": "boolean",
+    "title": "启用工具调用日志",
+    "description": "是否记录 LLM Tool 的调用和响应事件",
+    "default": true
+  },
+  "log_level": {
+    "type": "string",
+    "title": "日志级别",
+    "description": "工具调用日志的输出级别",
+    "default": "info"
+  }
 }
